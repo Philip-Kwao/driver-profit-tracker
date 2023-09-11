@@ -110,8 +110,8 @@ const Form = ({database, background, title}) => {
           {
             items.length < 1 ? (""):(
             <div className="flex justify-between align-center font-extrabold text-lg">
-              <span className="">Total Expense</span>
-              <span className="text-green-700">Ghs {total}</span>
+              <span className="">Total</span>
+              <span className="text-gray-700">Ghs {total}</span>
             </div>
             )
           }
